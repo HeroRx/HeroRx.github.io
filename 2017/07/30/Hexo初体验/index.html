@@ -77,7 +77,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="hexo," />
 
 
 
@@ -93,16 +93,21 @@
 
 
 
-<meta name="description" content="记录">
-<meta property="og:type" content="website">
-<meta property="og:title" content="HeroRx&#39;s blogs">
-<meta property="og:url" content="http://HeroRx.github.io/index.html">
+<meta name="description" content="前提配置很简单，为此我们需要安装三个软件，即Git Node.js hexo 一个Github的账号。之前配置不成功是因为下载的Node.js版本太老，去官网下载了最新的版本才能成功安装hexo,建议安装Node.js可以用nvm的方式，可以参考http://wiki.jikexueyuan.com/project/hexo-document/ 主题安装Git跟着一步一步安装，还有需要配置.ssh">
+<meta name="keywords" content="hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo初体验">
+<meta property="og:url" content="http://HeroRx.github.io/2017/07/30/Hexo初体验/index.html">
 <meta property="og:site_name" content="HeroRx&#39;s blogs">
-<meta property="og:description" content="记录">
+<meta property="og:description" content="前提配置很简单，为此我们需要安装三个软件，即Git Node.js hexo 一个Github的账号。之前配置不成功是因为下载的Node.js版本太老，去官网下载了最新的版本才能成功安装hexo,建议安装Node.js可以用nvm的方式，可以参考http://wiki.jikexueyuan.com/project/hexo-document/ 主题安装Git跟着一步一步安装，还有需要配置.ssh">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://otxzkelz6.bkt.clouddn.com/blog.png">
+<meta property="og:image" content="http://otxzkelz6.bkt.clouddn.com/6G%7BLK%25@4NZLSB0OOJ%28RMW7G.png">
+<meta property="og:updated_time" content="2017-07-31T06:59:13.384Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="HeroRx&#39;s blogs">
-<meta name="twitter:description" content="记录">
+<meta name="twitter:title" content="hexo初体验">
+<meta name="twitter:description" content="前提配置很简单，为此我们需要安装三个软件，即Git Node.js hexo 一个Github的账号。之前配置不成功是因为下载的Node.js版本太老，去官网下载了最新的版本才能成功安装hexo,建议安装Node.js可以用nvm的方式，可以参考http://wiki.jikexueyuan.com/project/hexo-document/ 主题安装Git跟着一步一步安装，还有需要配置.ssh">
+<meta name="twitter:image" content="http://otxzkelz6.bkt.clouddn.com/blog.png">
 
 
 
@@ -130,13 +135,13 @@
 
 
 
-  <link rel="canonical" href="http://HeroRx.github.io/"/>
+  <link rel="canonical" href="http://HeroRx.github.io/2017/07/30/Hexo初体验/"/>
 
 
 
 
 
-  <title>HeroRx's blogs</title>
+  <title>hexo初体验 | HeroRx's blogs</title>
   
 
 
@@ -161,9 +166,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -266,9 +269,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -294,9 +297,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/07/30/Hexo初体验/" itemprop="url">hexo初体验</a></h1>
+          <h1 class="post-title" itemprop="name headline">hexo初体验</h1>
         
 
         <div class="post-meta">
@@ -343,9 +344,7 @@
       
 
       
-        
-          
-            <h1 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h1><p>配置很简单，为此我们需要安装三个软件，即Git Node.js hexo</p>
+        <h1 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h1><p>配置很简单，为此我们需要安装三个软件，即Git Node.js hexo</p>
 <p>一个Github的账号。之前配置不成功是因为下载的Node.js版本太老，去官网下载了最新的版本才能成功安装hexo,建议安装Node.js可以用nvm的方式，可以参考<a href="http://wiki.jikexueyuan.com/project/hexo-document/" target="_blank" rel="external">http://wiki.jikexueyuan.com/project/hexo-document/</a></p>
 <h1 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h1><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p>跟着一步一步安装，还有需要配置.ssh</p>
 <p><a href="https://jingyan.baidu.com/article/90895e0fb3495f64ed6b0b50.html" target="_blank" rel="external">https://jingyan.baidu.com/article/90895e0fb3495f64ed6b0b50.html</a></p>
@@ -364,42 +363,56 @@ $ npm install
 <p>$ hexo d -g<br>发布成功后即可使用yourname.github.io访问你的网站了</p>
 <h2 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h2><p>另外，还可以重新配置网站的主题，可以在github克隆到本地，推荐nexT的主题，很精彩的主题</p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <div>
+      
+        
+
       
     </div>
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+        </div>
+      
+
+      
+      
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -407,6 +420,10 @@ $ npm install
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -427,8 +444,17 @@ $ npm install
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/my.jpg"
@@ -481,6 +507,22 @@ $ npm install
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前提"><span class="nav-number">1.</span> <span class="nav-text">前提</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#主题"><span class="nav-number">2.</span> <span class="nav-text">主题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Git"><span class="nav-number">2.1.</span> <span class="nav-text">安装Git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装Node-js"><span class="nav-number">2.2.</span> <span class="nav-text">安装Node.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装hexo"><span class="nav-number">2.3.</span> <span class="nav-text">安装hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#gitHub"><span class="nav-number">2.4.</span> <span class="nav-text">gitHub</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#主题配置"><span class="nav-number">2.5.</span> <span class="nav-text">主题配置</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -606,10 +648,10 @@ $ npm install
 
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
 
-  
+
 
   
 
